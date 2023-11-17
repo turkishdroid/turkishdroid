@@ -1,0 +1,7 @@
+sudo useradd -m aaytaccc
+
+#set user password
+sudo passwd aaytaccc
+
+#add user to sudoers [DANGEROUS]
+usermod -aG sudo aaytaccc
